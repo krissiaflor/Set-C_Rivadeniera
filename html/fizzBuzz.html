@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>FizzBuzz</title>
+</head>
+<body id="fizzbody">
+    <nav class="navbar navbar-expand-sm navbar-light mb-3 fixed-top"id="nav">
+        <div class="container">
+          <a class="navbar-brand" href="nextPage.html" ><img src="../img/images.png" alt="" id="home"></a>
+          </div>
+    </nav>
+    <div class="container text-center">
+        <div id="fizz">
+            <h2 class="display-2">FizzBuzz</h2>
+            <button type="button" class="btn btn-outline-primary" onclick="fizzBuzzz()" id="fizzbtn">Count Here!</button>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <script>
+                function fizzBuzzz() {
+                    function fizzBuzz(num) {
+                    let fizzBuzzState = 0;
+                    if (  num % 3  == 0 )
+                        fizzBuzzState = 1;
+                    if ( num % 5  == 0 )
+                        fizzBuzzState = 2;
+                    if ( ( num % 3 == 0 ) && ( num % 5 == 0 ) )
+                        fizzBuzzState = 3;
+                    if ( fizzBuzzState == 0 )
+                        return num;
+                    if ( fizzBuzzState == 1 )
+                        return " Fizz";
+                    if ( fizzBuzzState == 2 )
+                        return " Buzz"; 
+                    if ( fizzBuzzState == 3 )
+                        return " FizzBuzz"; 
+                    }
+                    for ( let i = 1; i <= 100; i++ ) {
+                    
+                        if ( confirm( fizzBuzz(i) ) == true )
+                            continue;
+                        else 
+                            break;
+                    
+                    }
+                }
+            </script>
+        </div>
+
+    </div>
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

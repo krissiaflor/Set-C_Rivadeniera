@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#content{
+    margin-top: 250px;
+}
+#button{
+    padding: 10px 100px 10px 100px ;
+}
+#contain{
+    background: linear-gradient(90deg, rgb(176, 223, 245),rgb(248, 179, 222));
+    margin: 50px 300px 50px 300px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:  -13px 13px 26px #4c97c4, 
+             13px -13px 26px #549fce;
+}
+.bg{
+    background: linear-gradient(90deg, rgb(176, 223, 245),rgb(248, 179, 222));
+    font-family: cursive;
+}
+#fizzbody{
+    background: linear-gradient(90deg, rgb(176, 223, 245),rgb(248, 179, 222));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 420px;
+    margin-top:250px;
+    overflow-y: hidden;
+    font-family: cursive;
+}
+#fizz{
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171, 221, 245));
+    border-radius: 53px;
+    box-shadow: inset -13px 13px 26px #4c97c4, 
+            inset 13px -13px 26px #72e3ff;
+    margin: 50px 300px 50px 300px;
+    padding: 10px;
+}
+#nav{
+    background-color: #5cd1f8;
+}
+#fizzbtn{
+    border-radius: 69px;
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171, 221, 245));
+    box-shadow:  6px 6px 12px rgba(253, 251, 251, 0), 
+                    -6px -6px 12px #9b6c9b;
+    letter-spacing: 2px;
+    color: #ff7dbe;
+    text-transform: capitalize;
+}
+#bodyfibo{
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171, 221, 245));
+    border-radius: 53px;
+    box-shadow: inset -13px 13px 26px #4c97c4, 
+            inset 13px -13px 26px #72e3ff;
+    margin: 250px 300px 50px 300px;
+    padding: 10px;
+    font-family: cursive;
+}
+#fibtn{
+    border-radius: 69px;
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171, 221, 245));
+    box-shadow:  -6px 6px 12px rgba(253, 251, 251, 0), 
+                    6px -6px 12px #9b6c9b;
+    letter-spacing: 2px;
+    color: #ff7dbe;
+    text-transform: capitalize;
+}
+#home{
+    border-radius: 89px;
+    background: #ff7dbe;
+    box-shadow: inset -14px -14px 27px #cc6498, 
+            inset 14px 14px 27px #ff96e4;
+    height: 30px;
+    width: auto;   
+}
+h2{
+    font-size: 5em;
+    color: #fdfd96;
+    text-shadow: 6px 6px 12px rgba(247, 231, 10, 0.555),
+                 -6px -6px 12px rgba(94, 90, 34, 0.555);
+}
+h1{
+    color:#cbcbcb;
+    text-shadow:  6px 6px 12px rgba(255,255, 255, 0), 
+             -6px -6px 12px #111111;
+}
+.box1{
+    position: absolute;
+    top: 75px;
+    right: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171,221,245));
+    box-shadow:  6px 6px 12px rgb(171, 221, 245), 
+             -6px -6px 12px  #eca2da;
+}
+.box1:before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171,221,245));
+    box-shadow: inset  6px 6px 12px rgb(171, 221, 245), 
+             inset -6px -6px 12px  #eca2da;
+}
+.box2{
+    position: absolute;
+    bottom: 25px;
+    right: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171,221,245));
+    box-shadow:  6px 6px 12px rgb(171, 221, 245), 
+             -6px -6px 12px  #eca2da;
+}
+.box2:before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171,221,245));
+    box-shadow: inset  6px 6px 12px rgb(171, 221, 245), 
+            inset  -6px -6px 12px  #eca2da;
+}
+.box3{
+    position: absolute;
+    bottom: 25px;
+    left: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171,221,245));
+    box-shadow:  6px 6px 12px rgb(171, 221, 245), 
+             -6px -6px 12px  #eca2da;
+}
+.box3:before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171,221,245));
+    box-shadow: inset  6px 6px 12px rgb(171, 221, 245), 
+            inset  -6px -6px 12px  #eca2da;
+}
+.box4{
+    position: absolute;
+    top: 75px;
+    left: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171,221,245));
+    box-shadow:  6px 6px 12px rgb(171, 221, 245), 
+             -6px -6px 12px  #eca2da;
+}
+.box4:before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171,221,245));
+    box-shadow: inset  6px 6px 12px rgb(171, 221, 245), 
+            inset  -6px -6px 12px  #eca2da;
+}
+#button{
+    letter-spacing: 2px;
+    background-color: #5cd1f8;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px rgba(255,255, 255, 0), 
+                    6px 6px 12px #111111,
+                    inset -6px -6px 4px rgba(255, 255, 255,0.1),
+                    -6px -6px 8px rgba(0,0,0,0.15) ;
+}
+.singbody{
+    background: linear-gradient(90deg,rgb(241, 177, 217), rgb(171, 221, 245));
+    border-radius: 53px;
+    box-shadow: inset -13px 13px 26px #4c97c4, 
+            inset 13px -13px 26px #72e3ff;
+    margin: 250px 300px 50px 300px;
+    padding: 10px;
+    font-family: cursive;
+    min-height: 200px;
+}
+#btn{
+    letter-spacing: 2px;
+    background-color: #72e3ff;
+    border-radius: 20px;
+    box-shadow:  -5px 5px 15px #4c97c4, 
+             5px -5px 15px #72e3ff;
+}
+#js{
+    letter-spacing: 2px;
+    text-shadow:  3px -3px 7px rgba(255,255, 255, 0), 
+             -3px 3px 7px #838080;
+}
+#fizzB{
+    letter-spacing: 2px;
+    text-shadow:  3px -3px 7px rgba(255,255, 255, 0), 
+             -3px 3px 7px #757474;
+}
+#beer, #fsequence{
+    text-shadow:  3px -3px 7px rgba(255,255, 255, 0), 
+            -3px 3px 7px #817c7c;
+}

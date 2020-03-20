@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>The 99 Bottles</title>
+</head>
+<body class="singbody">
+    <nav class="navbar navbar-expand-sm navbar-light mb-3 fixed-top"id="nav">
+        <div class="container">
+          <a class="navbar-brand" href="nextPage.html" ><img src="../img/images.png" alt="" id="home"></a>
+        </div>
+    </nav>
+<div class="container text-center">
+    <div id="sing" class="my-3">
+        <h2 class="display-4">The 99 Bottles of Beer</h2>
+        <button type="button" class="btn btn-outline-primary my-3" onclick="singHere()" id="fibtn">Sing here!</button>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+    </div>
+</div>
+    <script>
+        function singHere(){
+            var bottles = 99;
+            var theSong = "";
+
+            while (bottles > 1){
+                theSong += bottles + "bottles of beer on the wall \n";
+                theSong += bottles + "bottles of beer \n";
+                theSong += "Take one down, pass it around \n \n";
+                
+                bottles --;
+                
+                if (bottles == 1){
+                    theSong += bottles + "bottle of beer on the wall \n";
+                    theSong += bottles + "bottle of beer \n";
+                }
+                if ( confirm( theSong ) == true )
+                            continue;
+                else 
+                            break;
+            }
+        }
+    </script>
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
