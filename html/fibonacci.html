@@ -23,18 +23,20 @@
             <div class="box4"></div>
             <script>
                 function fiboSe(){
-                    var x,y,result,temp;
+                    var x,y,result,temp,num;
                     limit = 100;
                     x = 0;
                     y = 1;
                     temp = 0
-                    result = " ";
-
-                   while (temp < limit){
-                       result = result + y;    
+                    result;
+                    num = prompt("Enter the limit to generate fibonacci series");
+                    alert(x);
+                    alert(y);
+                    for (result = 3; result <= num; result++){
+                           
                        temp = x+y;
                        x = y;
-                       y = temp; 
+                       y = temp;  
                        
                        if ( confirm( temp ) == true )
                             continue;
