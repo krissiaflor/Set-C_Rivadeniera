@@ -14,8 +14,8 @@
     margin: 50px 300px 50px 300px;
     padding: 10px;
     border-radius: 20px;
-    box-shadow:  -13px 13px 26px #4c97c4, 
-             13px -13px 26px #549fce;
+    box-shadow: inset -13px 13px 26px #4c97c4, 
+            inset 13px -13px 26px #549fce;
 }
 .bg{
     background: linear-gradient(90deg, rgb(176, 223, 245),rgb(248, 179, 222));
