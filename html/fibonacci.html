@@ -15,7 +15,7 @@
     </nav>
     <div class="container text-center">
         <div id="fibo">
-            <h2 class="display-2">Fibonacci Series</h2>
+            <h2 class="display-4">Fibonacci Series</h2>
             <button type="button" class="btn btn-outline-primary" onclick="fiboSe()" id="fibtn">Generate!</button>
             <div class="box1"></div>
             <div class="box2"></div>
@@ -23,32 +23,35 @@
             <div class="box4"></div>
             <script>
                 function fiboSe(){
-                    var x,y,result,temp,num;
-                    limit = 100;
+                   
+                    num = prompt("Enter the limit to generate fibonacci series");
+                    document.getElementById("answer").innerHTML = fibSeq(num);
+                }
+                var x,y,result,temp,num;
                     x = 0;
                     y = 1;
-                    temp = 0
-                    result;
-                    num = prompt("Enter the limit to generate fibonacci series");
-                    alert(x);
-                    alert(y);
-                    for (result = 3; result <= num; result++){
+                    temp=0;
+                    result = [0,1];
+                function fibSeq(num){
+                        
+                   while(result.length < num ){
                            
-                       temp = x+y;
-                       x = y;
-                       y = temp;  
-                       
-                       if ( confirm( temp ) == true )
-                            continue;
-                        else 
-                            break;
-                   }
+                           temp = x+y;
+                           x = y;
+                           y = temp; 
+                           result.push(temp)
+                       }
+                    return(result);
+                }
                    
-                } 
+            
                 
             </script>
             
         </div>
+    </div>
+    <div id="ansDes">
+        <h4 id="answer"></h4>
     </div>
     <script src="../js/jquery-3.3.1.slim.min.js"></script>
     <script src="../js/popper.min.js"></script>
