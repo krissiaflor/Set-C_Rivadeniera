@@ -40,7 +40,10 @@
                     theSong += bottles + "bottle of beer \n";
                 }
                
-                    document.write(theSong);
+                     if ( confirm( theSong) == true )
+                            continue;
+                        else 
+                            break;
             }
         }
     </script>
