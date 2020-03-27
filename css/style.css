@@ -15,7 +15,7 @@
     padding: 10px;
     border-radius: 20px;
     box-shadow: inset -13px 13px 26px #4c97c4, 
-            inset 13px -13px 26px #549fce;
+           inset  13px -13px 26px #549fce;
 }
 .bg{
     background: linear-gradient(90deg, rgb(176, 223, 245),rgb(248, 179, 222));
@@ -56,7 +56,7 @@
     border-radius: 53px;
     box-shadow: inset -13px 13px 26px #4c97c4, 
             inset 13px -13px 26px #72e3ff;
-    margin: 250px 300px 50px 300px;
+    margin: 250px 300px 250px 300px;
     padding: 10px;
     font-family: cursive;
 }
@@ -219,4 +219,11 @@ h1{
 #beer, #fsequence{
     text-shadow:  3px -3px 7px rgba(255,255, 255, 0), 
             -3px 3px 7px #817c7c;
+}
+#ansDes{
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: inset -13px 13px 26px #4c97c4, 
+           inset  13px -13px 26px #549fce;
+    margin: 10px 100px 10px 100px;
 }
